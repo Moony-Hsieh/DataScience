@@ -1,4 +1,4 @@
-# Data Scicene  
+# Data Science  
 
 這邊是我工作的一些筆記
 
