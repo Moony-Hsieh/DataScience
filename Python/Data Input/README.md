@@ -2,7 +2,7 @@
 
 這邊是我工作的一些筆記  
 
-# 檔案格式會是 .ipynb ／ html  
+### 檔案格式會是 .ipynb ／ html  
 會有兩種檔案，一個是我用Jupyter-Notebook寫的原始code檔案。  
 另一個會是html。將Notebook轉成html可以直接用瀏覽器開起來。  
 (而且這個格式還有側欄，可以像Jupyter-Notebook一樣，可以按照標題點選想要看的主題，十分便利！)  
