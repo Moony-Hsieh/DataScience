@@ -13195,7 +13195,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>conda -V
@@ -13226,7 +13226,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>python --version
@@ -13273,7 +13273,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -13309,7 +13309,7 @@ t_weather1906.iloc[:13]</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 檔案路徑</span>
@@ -13372,7 +13372,7 @@ t_weather1906.iloc[:13]</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t_weather</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13388,7 +13388,7 @@ t_weather1906.iloc[:13]</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[4]:</div>
+    <div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -13421,7 +13421,21 @@ t_weather1906.iloc[:13]</p>
       <th>Temperature</th>
       <th>T Max</th>
       <th>T Max Time</th>
-      <th>...</th>
+      <th>T Min</th>
+      <th>T Min Time</th>
+      <th>Td dew point</th>
+      <th>RH</th>
+      <th>RHMin</th>
+      <th>RHMinTime</th>
+      <th>WS</th>
+      <th>WD</th>
+      <th>WSGust</th>
+      <th>WDGust</th>
+      <th>WGustTime</th>
+      <th>Precp</th>
+      <th>PrecpHour</th>
+      <th>PrecpMax10</th>
+      <th>PrecpMax10Time</th>
       <th>PrecpHrMax</th>
       <th>PrecpHrMaxTime</th>
       <th>SunShine</th>
@@ -13447,7 +13461,21 @@ t_weather1906.iloc[:13]</p>
       <td>24.7</td>
       <td>27.6</td>
       <td>2018-06-01 00:01</td>
-      <td>...</td>
+      <td>22.2</td>
+      <td>2018-06-01 21:01</td>
+      <td>19.3</td>
+      <td>72</td>
+      <td>65</td>
+      <td>2018-06-01 15:19</td>
+      <td>4.3</td>
+      <td>80</td>
+      <td>14.3</td>
+      <td>80</td>
+      <td>2018-06-01 15:07</td>
+      <td>1.2</td>
+      <td>4.4</td>
+      <td>0.5</td>
+      <td>2018-06-01 06:12</td>
       <td>0.8</td>
       <td>2018-06-01 06:08</td>
       <td>0</td>
@@ -13471,7 +13499,21 @@ t_weather1906.iloc[:13]</p>
       <td>25.2</td>
       <td>28</td>
       <td>2018-06-02 12:51</td>
-      <td>...</td>
+      <td>22.9</td>
+      <td>2018-06-02 00:12</td>
+      <td>18.6</td>
+      <td>67</td>
+      <td>58</td>
+      <td>2018-06-02 12:28</td>
+      <td>3.8</td>
+      <td>80</td>
+      <td>11.3</td>
+      <td>70</td>
+      <td>2018-06-02 12:02</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>NaN</td>
       <td>0.0</td>
       <td>NaN</td>
       <td>0.9</td>
@@ -13495,7 +13537,21 @@ t_weather1906.iloc[:13]</p>
       <td>27.2</td>
       <td>31.8</td>
       <td>2018-06-03 10:18</td>
-      <td>...</td>
+      <td>25.2</td>
+      <td>2018-06-03 00:01</td>
+      <td>21.5</td>
+      <td>72</td>
+      <td>60</td>
+      <td>2018-06-03 10:17</td>
+      <td>2.7</td>
+      <td>80</td>
+      <td>9.9</td>
+      <td>60</td>
+      <td>2018-06-03 22:06</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>NaN</td>
       <td>0.0</td>
       <td>NaN</td>
       <td>3.3</td>
@@ -13519,7 +13575,21 @@ t_weather1906.iloc[:13]</p>
       <td>28.6</td>
       <td>36</td>
       <td>2018-06-04 11:53</td>
-      <td>...</td>
+      <td>25.5</td>
+      <td>2018-06-04 03:59</td>
+      <td>22.4</td>
+      <td>70</td>
+      <td>50</td>
+      <td>2018-06-04 11:49</td>
+      <td>2.8</td>
+      <td>80</td>
+      <td>11.3</td>
+      <td>80</td>
+      <td>2018-06-04 14:40</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>NaN</td>
       <td>0.0</td>
       <td>NaN</td>
       <td>6.7</td>
@@ -13543,7 +13613,21 @@ t_weather1906.iloc[:13]</p>
       <td>29.8</td>
       <td>37.4</td>
       <td>2018-06-05 12:25</td>
-      <td>...</td>
+      <td>25.7</td>
+      <td>2018-06-05 23:03</td>
+      <td>22.5</td>
+      <td>66</td>
+      <td>42</td>
+      <td>2018-06-05 10:52</td>
+      <td>1.9</td>
+      <td>80</td>
+      <td>10.1</td>
+      <td>70</td>
+      <td>2018-06-05 15:15</td>
+      <td>4.5</td>
+      <td>4.2</td>
+      <td>0.9</td>
+      <td>2018-06-05 21:51</td>
       <td>2.8</td>
       <td>2018-06-05 21:07</td>
       <td>6.4</td>
@@ -13557,7 +13641,6 @@ t_weather1906.iloc[:13]</p>
     </tr>
   </tbody>
 </table>
-<p>5 rows × 35 columns</p>
 </div>
 </div>
 
@@ -13621,7 +13704,7 @@ all_files = glob.glob(path + "/*.csv")</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">glob</span>
@@ -13644,7 +13727,7 @@ all_files = glob.glob(path + "/*.csv")</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t_weather</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13660,7 +13743,7 @@ all_files = glob.glob(path + "/*.csv")</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -13693,7 +13776,21 @@ all_files = glob.glob(path + "/*.csv")</p>
       <th>Temperature</th>
       <th>T Max</th>
       <th>T Max Time</th>
-      <th>...</th>
+      <th>T Min</th>
+      <th>T Min Time</th>
+      <th>Td dew point</th>
+      <th>RH</th>
+      <th>RHMin</th>
+      <th>RHMinTime</th>
+      <th>WS</th>
+      <th>WD</th>
+      <th>WSGust</th>
+      <th>WDGust</th>
+      <th>WGustTime</th>
+      <th>Precp</th>
+      <th>PrecpHour</th>
+      <th>PrecpMax10</th>
+      <th>PrecpMax10Time</th>
       <th>PrecpHrMax</th>
       <th>PrecpHrMaxTime</th>
       <th>SunShine</th>
@@ -13719,7 +13816,21 @@ all_files = glob.glob(path + "/*.csv")</p>
       <td>32.1</td>
       <td>37</td>
       <td>2018-08-01 12:55</td>
-      <td>...</td>
+      <td>29.1</td>
+      <td>2018-08-01 04:39</td>
+      <td>24.2</td>
+      <td>64</td>
+      <td>44</td>
+      <td>2018-08-01 13:21</td>
+      <td>1.8</td>
+      <td>280</td>
+      <td>9.8</td>
+      <td>300</td>
+      <td>2018-08-01 13:10</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2018-08-01 00:00</td>
       <td>0.0</td>
       <td>2018-08-01 00:00</td>
       <td>4.9</td>
@@ -13743,7 +13854,21 @@ all_files = glob.glob(path + "/*.csv")</p>
       <td>32.3</td>
       <td>37.2</td>
       <td>2018-08-02 13:44</td>
-      <td>...</td>
+      <td>29.2</td>
+      <td>2018-08-02 04:03</td>
+      <td>23.2</td>
+      <td>59</td>
+      <td>42</td>
+      <td>2018-08-02 13:16</td>
+      <td>2.2</td>
+      <td>300</td>
+      <td>11.4</td>
+      <td>310</td>
+      <td>2018-08-02 12:47</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2018-08-02 00:00</td>
       <td>0.0</td>
       <td>2018-08-02 00:00</td>
       <td>3.1</td>
@@ -13767,7 +13892,21 @@ all_files = glob.glob(path + "/*.csv")</p>
       <td>29.8</td>
       <td>36.5</td>
       <td>2018-08-03 11:40</td>
-      <td>...</td>
+      <td>25.6</td>
+      <td>2018-08-03 16:38</td>
+      <td>23.4</td>
+      <td>69</td>
+      <td>47</td>
+      <td>2018-08-03 11:18</td>
+      <td>1.8</td>
+      <td>190</td>
+      <td>13.8</td>
+      <td>60</td>
+      <td>2018-08-03 15:08</td>
+      <td>5.0</td>
+      <td>4</td>
+      <td>4.0</td>
+      <td>2018-08-03 16:14</td>
       <td>4.5</td>
       <td>2018-08-03 16:16</td>
       <td>4.3</td>
@@ -13791,7 +13930,21 @@ all_files = glob.glob(path + "/*.csv")</p>
       <td>29.6</td>
       <td>35.6</td>
       <td>2018-08-04 11:34</td>
-      <td>...</td>
+      <td>26.3</td>
+      <td>2018-08-04 01:46</td>
+      <td>23.1</td>
+      <td>69</td>
+      <td>53</td>
+      <td>2018-08-04 10:50</td>
+      <td>1.5</td>
+      <td>230</td>
+      <td>8.8</td>
+      <td>210</td>
+      <td>2018-08-04 14:56</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2018-08-04 00:00</td>
       <td>0.0</td>
       <td>2018-08-04 00:00</td>
       <td>4.9</td>
@@ -13815,7 +13968,21 @@ all_files = glob.glob(path + "/*.csv")</p>
       <td>30.9</td>
       <td>36.2</td>
       <td>2018-08-05 13:04</td>
-      <td>...</td>
+      <td>27.6</td>
+      <td>2018-08-05 02:47</td>
+      <td>23.4</td>
+      <td>65</td>
+      <td>50</td>
+      <td>2018-08-05 12:59</td>
+      <td>1.7</td>
+      <td>210</td>
+      <td>10.2</td>
+      <td>70</td>
+      <td>2018-08-05 13:46</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2018-08-05 00:00</td>
       <td>0.0</td>
       <td>2018-08-05 00:00</td>
       <td>7</td>
@@ -13829,7 +13996,6 @@ all_files = glob.glob(path + "/*.csv")</p>
     </tr>
   </tbody>
 </table>
-<p>5 rows × 35 columns</p>
 </div>
 </div>
 
@@ -13871,7 +14037,7 @@ all_files = glob.glob(path + "/*.csv")</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -13889,7 +14055,7 @@ all_files = glob.glob(path + "/*.csv")</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[15]:</div>
+    <div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -13910,8 +14076,10 @@ all_files = glob.glob(path + "/*.csv")</p>
 <p>Python 列出目錄中所有檔案教學：os.listdir 與 os.walk - G. T. Wang<br>
 <a href="https://blog.gtwang.org/programming/python-list-all-files-in-directory/">https://blog.gtwang.org/programming/python-list-all-files-in-directory/</a><br>
 from os import walk</p>
-<h1 id="&#25351;&#23450;&#35201;&#21015;&#20986;&#25152;&#26377;&#27284;&#26696;&#30340;&#30446;&#37636;">&#25351;&#23450;&#35201;&#21015;&#20986;&#25152;&#26377;&#27284;&#26696;&#30340;&#30446;&#37636;<a class="anchor-link" href="#&#25351;&#23450;&#35201;&#21015;&#20986;&#25152;&#26377;&#27284;&#26696;&#30340;&#30446;&#37636;">&#182;</a></h1><p>mypath = "/var/log"</p>
-<h1 id="&#36958;&#36852;&#21015;&#20986;&#25152;&#26377;&#23376;&#30446;&#37636;&#33287;&#27284;&#26696;">&#36958;&#36852;&#21015;&#20986;&#25152;&#26377;&#23376;&#30446;&#37636;&#33287;&#27284;&#26696;<a class="anchor-link" href="#&#36958;&#36852;&#21015;&#20986;&#25152;&#26377;&#23376;&#30446;&#37636;&#33287;&#27284;&#26696;">&#182;</a></h1><p>for root, dirs, files in walk(mypath):<br>
+<p>指定要列出所有檔案的目錄<br>
+mypath = "/var/log"</p>
+<p>遞迴列出所有子目錄與檔案<br>
+for root, dirs, files in walk(mypath):<br>
   print("路徑：", root)<br>
   print("  目錄：", dirs)<br>
   print("  檔案：", files)</p>
@@ -13924,7 +14092,7 @@ from os import walk</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -13982,7 +14150,7 @@ from os import walk</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -14079,8 +14247,9 @@ from os import walk</p>
 <a href="https://www.itread01.com/content/1533797912.html">https://www.itread01.com/content/1533797912.html</a><br>
 import csv<br>
 import os<br>
-import pandas as pd</p>
-<h1 id="&#25552;&#21462;&#25991;&#20214;&#22846;&#19979;&#30340;&#22320;&#22336;+&#25991;&#20214;&#21517;&#65292;&#28304;&#25991;&#20214;&#35373;&#23450;&#25490;&#24207;&#35215;&#21063;">&#25552;&#21462;&#25991;&#20214;&#22846;&#19979;&#30340;&#22320;&#22336;+&#25991;&#20214;&#21517;&#65292;&#28304;&#25991;&#20214;&#35373;&#23450;&#25490;&#24207;&#35215;&#21063;<a class="anchor-link" href="#&#25552;&#21462;&#25991;&#20214;&#22846;&#19979;&#30340;&#22320;&#22336;+&#25991;&#20214;&#21517;&#65292;&#28304;&#25991;&#20214;&#35373;&#23450;&#25490;&#24207;&#35215;&#21063;">&#182;</a></h1><p>def file_name(file_dir):<br>
+import pandas as pd<br>
+提取文件夾下的地址+文件名，源文件設定排序規則<br>
+def file_name(file_dir):<br>
      L = []<br>
      for root, dirs, files in os.walk(file_dir):<br>
          for file in files:<br>
@@ -14094,7 +14263,7 @@ import pandas as pd</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">l</span><span class="o">=</span><span class="p">[]</span>
@@ -14111,7 +14280,7 @@ import pandas as pd</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">l</span>
@@ -14127,7 +14296,7 @@ import pandas as pd</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[19]:</div>
+    <div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -14196,7 +14365,7 @@ Yes, but Python has a comparison operator that you should use instead, because t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">=</span><span class="p">[]</span>
@@ -14214,7 +14383,7 @@ Yes, but Python has a comparison operator that you should use instead, because t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span>
@@ -14230,7 +14399,7 @@ Yes, but Python has a comparison operator that you should use instead, because t
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[21]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -14259,7 +14428,7 @@ Yes, but Python has a comparison operator that you should use instead, because t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -14298,7 +14467,7 @@ Yes, but Python has a comparison operator that you should use instead, because t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t_weather</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -14314,7 +14483,7 @@ Yes, but Python has a comparison operator that you should use instead, because t
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[25]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -14347,7 +14516,21 @@ Yes, but Python has a comparison operator that you should use instead, because t
       <th>Temperature</th>
       <th>T Max</th>
       <th>T Max Time</th>
-      <th>...</th>
+      <th>T Min</th>
+      <th>T Min Time</th>
+      <th>Td dew point</th>
+      <th>RH</th>
+      <th>RHMin</th>
+      <th>RHMinTime</th>
+      <th>WS</th>
+      <th>WD</th>
+      <th>WSGust</th>
+      <th>WDGust</th>
+      <th>WGustTime</th>
+      <th>Precp</th>
+      <th>PrecpHour</th>
+      <th>PrecpMax10</th>
+      <th>PrecpMax10Time</th>
       <th>PrecpHrMax</th>
       <th>PrecpHrMaxTime</th>
       <th>SunShine</th>
@@ -14373,7 +14556,21 @@ Yes, but Python has a comparison operator that you should use instead, because t
       <td>32.1</td>
       <td>37</td>
       <td>2018-08-01 12:55</td>
-      <td>...</td>
+      <td>29.1</td>
+      <td>2018-08-01 04:39</td>
+      <td>24.2</td>
+      <td>64</td>
+      <td>44</td>
+      <td>2018-08-01 13:21</td>
+      <td>1.8</td>
+      <td>280</td>
+      <td>9.8</td>
+      <td>300</td>
+      <td>2018-08-01 13:10</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2018-08-01 00:00</td>
       <td>0.0</td>
       <td>2018-08-01 00:00</td>
       <td>4.9</td>
@@ -14397,7 +14594,21 @@ Yes, but Python has a comparison operator that you should use instead, because t
       <td>32.3</td>
       <td>37.2</td>
       <td>2018-08-02 13:44</td>
-      <td>...</td>
+      <td>29.2</td>
+      <td>2018-08-02 04:03</td>
+      <td>23.2</td>
+      <td>59</td>
+      <td>42</td>
+      <td>2018-08-02 13:16</td>
+      <td>2.2</td>
+      <td>300</td>
+      <td>11.4</td>
+      <td>310</td>
+      <td>2018-08-02 12:47</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2018-08-02 00:00</td>
       <td>0.0</td>
       <td>2018-08-02 00:00</td>
       <td>3.1</td>
@@ -14421,7 +14632,21 @@ Yes, but Python has a comparison operator that you should use instead, because t
       <td>29.8</td>
       <td>36.5</td>
       <td>2018-08-03 11:40</td>
-      <td>...</td>
+      <td>25.6</td>
+      <td>2018-08-03 16:38</td>
+      <td>23.4</td>
+      <td>69</td>
+      <td>47</td>
+      <td>2018-08-03 11:18</td>
+      <td>1.8</td>
+      <td>190</td>
+      <td>13.8</td>
+      <td>60</td>
+      <td>2018-08-03 15:08</td>
+      <td>5.0</td>
+      <td>4</td>
+      <td>4.0</td>
+      <td>2018-08-03 16:14</td>
       <td>4.5</td>
       <td>2018-08-03 16:16</td>
       <td>4.3</td>
@@ -14445,7 +14670,21 @@ Yes, but Python has a comparison operator that you should use instead, because t
       <td>29.6</td>
       <td>35.6</td>
       <td>2018-08-04 11:34</td>
-      <td>...</td>
+      <td>26.3</td>
+      <td>2018-08-04 01:46</td>
+      <td>23.1</td>
+      <td>69</td>
+      <td>53</td>
+      <td>2018-08-04 10:50</td>
+      <td>1.5</td>
+      <td>230</td>
+      <td>8.8</td>
+      <td>210</td>
+      <td>2018-08-04 14:56</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2018-08-04 00:00</td>
       <td>0.0</td>
       <td>2018-08-04 00:00</td>
       <td>4.9</td>
@@ -14469,7 +14708,21 @@ Yes, but Python has a comparison operator that you should use instead, because t
       <td>30.9</td>
       <td>36.2</td>
       <td>2018-08-05 13:04</td>
-      <td>...</td>
+      <td>27.6</td>
+      <td>2018-08-05 02:47</td>
+      <td>23.4</td>
+      <td>65</td>
+      <td>50</td>
+      <td>2018-08-05 12:59</td>
+      <td>1.7</td>
+      <td>210</td>
+      <td>10.2</td>
+      <td>70</td>
+      <td>2018-08-05 13:46</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2018-08-05 00:00</td>
       <td>0.0</td>
       <td>2018-08-05 00:00</td>
       <td>7</td>
@@ -14483,7 +14736,6 @@ Yes, but Python has a comparison operator that you should use instead, because t
     </tr>
   </tbody>
 </table>
-<p>5 rows × 35 columns</p>
 </div>
 </div>
 
@@ -14509,7 +14761,7 @@ Yes, but Python has a comparison operator that you should use instead, because t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t_weather</span><span class="p">[</span><span class="n">t_weather</span><span class="p">[</span><span class="s1">&#39;StnPresMaxTime&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;...&#39;</span><span class="p">]</span>
@@ -14525,7 +14777,7 @@ Yes, but Python has a comparison operator that you should use instead, because t
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[29]:</div>
+    <div class="prompt output_prompt">Out[17]:</div>
 
 
 
@@ -15245,7 +15497,7 @@ Yes, but Python has a comparison operator that you should use instead, because t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t_weather</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
@@ -15261,7 +15513,7 @@ Yes, but Python has a comparison operator that you should use instead, because t
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[30]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
@@ -15540,7 +15792,7 @@ dataframe是依照filename清單合併的<br>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t_weather</span><span class="p">[</span><span class="n">t_weather</span><span class="p">[</span><span class="s1">&#39;StnPresMaxTime&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;...&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">index</span>
@@ -15556,7 +15808,7 @@ dataframe是依照filename清單合併的<br>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[31]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -15575,7 +15827,7 @@ dataframe是依照filename清單合併的<br>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t_weather</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="mi">225</span><span class="p">,</span> <span class="mi">226</span><span class="p">,</span> <span class="mi">227</span><span class="p">,</span> <span class="mi">228</span><span class="p">,</span> <span class="mi">229</span><span class="p">,</span> <span class="mi">230</span><span class="p">,</span> <span class="mi">231</span><span class="p">,</span> <span class="mi">232</span><span class="p">,</span> <span class="mi">233</span><span class="p">,</span> <span class="mi">234</span><span class="p">,</span> <span class="mi">235</span><span class="p">,</span> <span class="mi">236</span><span class="p">,</span> <span class="mi">237</span><span class="p">,</span> <span class="mi">238</span><span class="p">,</span> <span class="mi">239</span><span class="p">,</span> <span class="mi">240</span><span class="p">,</span> <span class="mi">241</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -15597,7 +15849,7 @@ x_weather就有發現到狀況</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x_weather</span><span class="p">[</span><span class="n">x_weather</span><span class="p">[</span><span class="s1">&#39;StnPresMaxTime&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;...&#39;</span><span class="p">]</span>
@@ -15613,7 +15865,7 @@ x_weather就有發現到狀況</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[34]:</div>
+    <div class="prompt output_prompt">Out[21]:</div>
 
 
 
@@ -16344,7 +16596,7 @@ x_weather就有發現到狀況</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">drop_columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;SeaPres&#39;</span><span class="p">,</span> <span class="s1">&#39;StnPresMax&#39;</span><span class="p">,</span> <span class="s1">&#39;StnPresMin&#39;</span><span class="p">,</span>
@@ -16365,7 +16617,7 @@ x_weather就有發現到狀況</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[38]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
@@ -16732,7 +16984,8 @@ x_weather就有發現到狀況</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Sorted()">Sorted()<a class="anchor-link" href="#Sorted()">&#182;</a></h2><h1 id="&#21487;&#20197;&#29992;sorted()&#20358;&#25490;&#24207;&#27284;&#21517;">&#21487;&#20197;&#29992;sorted()&#20358;&#25490;&#24207;&#27284;&#21517;<a class="anchor-link" href="#&#21487;&#20197;&#29992;sorted()&#20358;&#25490;&#24207;&#27284;&#21517;">&#182;</a></h1><p>Analyzing Data from Multiple Files – Programming with Python<br>
+<h2 id="Sorted()">Sorted()<a class="anchor-link" href="#Sorted()">&#182;</a></h2><p>可以用sorted()來排序檔名<br>
+Analyzing Data from Multiple Files – Programming with Python<br>
 <a href="https://swcarpentry.github.io/python-novice-inflammation/04-files/">https://swcarpentry.github.io/python-novice-inflammation/04-files/</a><br>
 glob.glob’s result is a list of file and directory paths in arbitrary order.<br>
 If we want to start by analyzing just the first three files in alphabetical order, we can use the sorted built-in function to generate a new sorted list from the glob.glob output</p>
@@ -16742,7 +16995,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">=</span><span class="p">[]</span>
@@ -16760,7 +17013,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span>
@@ -16776,7 +17029,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[40]:</div>
+    <div class="prompt output_prompt">Out[24]:</div>
 
 
 
@@ -16805,7 +17058,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">sorted</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
@@ -16821,7 +17074,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[41]:</div>
+    <div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -16850,7 +17103,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -16866,7 +17119,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[42]:</div>
+    <div class="prompt output_prompt">Out[26]:</div>
 
 
 
@@ -16883,7 +17136,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[329]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="p">[</span><span class="mi">0</span><span class="p">][:</span><span class="n">t</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">rfind</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)]</span>
@@ -16899,7 +17152,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[329]:</div>
+    <div class="prompt output_prompt">Out[27]:</div>
 
 
 
@@ -16916,7 +17169,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[322]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">sorted</span><span class="p">(</span><span class="n">t</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
@@ -16932,7 +17185,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[322]:</div>
+    <div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -16959,7 +17212,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[318]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">=</span><span class="p">[]</span>
@@ -16982,7 +17235,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[321]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t_sort</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -16998,7 +17251,7 @@ If we want to start by analyzing just the first three files in alphabetical orde
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[321]:</div>
+    <div class="prompt output_prompt">Out[30]:</div>
 
 
 
@@ -17277,8 +17530,13 @@ If we want to start by analyzing just the first three files in alphabetical orde
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>爬文找靈感<br>
 Working with many files in pandas<br>
-<a href="http://jonathansoma.com/lede/foundations-2017/classes/working-with-many-files/class/">http://jonathansoma.com/lede/foundations-2017/classes/working-with-many-files/class/</a></p>
-<h1 id="zip-loops-through-TWO-THINGS-AT-ONCE">zip loops through TWO THINGS AT ONCE<a class="anchor-link" href="#zip-loops-through-TWO-THINGS-AT-ONCE">&#182;</a></h1><h1 id="so-you're-looking-at-dataframe-#1-and-filename-#1">so you're looking at dataframe #1 and filename #1<a class="anchor-link" href="#so-you're-looking-at-dataframe-#1-and-filename-#1">&#182;</a></h1><h1 id="then-dataframe-#2-and-filename-#2">then dataframe #2 and filename #2<a class="anchor-link" href="#then-dataframe-#2-and-filename-#2">&#182;</a></h1><h1 id="etc">etc<a class="anchor-link" href="#etc">&#182;</a></h1><h1 id="and-assigning-that-filename-as-a-new-column-in-the-dataframe">and assigning that filename as a new column in the dataframe<a class="anchor-link" href="#and-assigning-that-filename-as-a-new-column-in-the-dataframe">&#182;</a></h1><p>for dataframe, filename in zip(list_of_dfs, filenames)<br>
+<a href="http://jonathansoma.com/lede/foundations-2017/classes/working-with-many-files/class/">http://jonathansoma.com/lede/foundations-2017/classes/working-with-many-files/class/</a><br>
+zip loops through TWO THINGS AT ONCE<br>
+so you're looking at dataframe #1 and filename #1<br>
+then dataframe #2 and filename #2<br>
+etc<br>
+and assigning that filename as a new column in the dataframe<br>
+for dataframe, filename in zip(list_of_dfs, filenames)<br>
   dataframe['filename'] = filename</p>
 
 </div>
@@ -17287,7 +17545,8 @@ Working with many files in pandas<br>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#23559;&#27284;&#21517;&#20786;&#23384;&#22312;for-loop&#38542;&#27573;">&#23559;&#27284;&#21517;&#20786;&#23384;&#22312;for loop&#38542;&#27573;<a class="anchor-link" href="#&#23559;&#27284;&#21517;&#20786;&#23384;&#22312;for-loop&#38542;&#27573;">&#182;</a></h1><p>pandas - Python to append multiple csv files and add column with file names? - Stack Overflow<br>
+<p>將檔名儲存在for loop階段<br>
+pandas - Python to append multiple csv files and add column with file names? - Stack Overflow<br>
 <a href="https://stackoverflow.com/questions/54172932/python-to-append-multiple-csv-files-and-add-column-with-file-names">https://stackoverflow.com/questions/54172932/python-to-append-multiple-csv-files-and-add-column-with-file-names</a><br>
 The following should work by creating the filename column before appending the dataframe to your list.<br>
 file_list = list()</p>
@@ -17303,7 +17562,7 @@ file_list = list()</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span><span class="o">=</span><span class="p">[]</span>
@@ -17324,7 +17583,7 @@ file_list = list()</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t_concat</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="s1">&#39;filename&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -17340,7 +17599,7 @@ file_list = list()</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[47]:</div>
+    <div class="prompt output_prompt">Out[32]:</div>
 
 
 
@@ -17363,8 +17622,9 @@ Name: filename, dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>發現到檔名是存全名</p>
-<h1 id="&#27284;&#21517;&#26159;.csv&#65292;&#24819;&#25226;&#21103;&#27284;&#21517;&#21435;&#25481;&#19981;&#35201;&#23384;">&#27284;&#21517;&#26159;.csv&#65292;&#24819;&#25226;&#21103;&#27284;&#21517;&#21435;&#25481;&#19981;&#35201;&#23384;<a class="anchor-link" href="#&#27284;&#21517;&#26159;.csv&#65292;&#24819;&#25226;&#21103;&#27284;&#21517;&#21435;&#25481;&#19981;&#35201;&#23384;">&#182;</a></h1><p>split - Python: Cut off the last word of a sentence? - Stack Overflow<br>
+<p>發現到檔名是存全名<br>
+檔名是.csv，想把副檔名去掉不要存<br>
+split - Python: Cut off the last word of a sentence? - Stack Overflow<br>
 <a href="https://stackoverflow.com/questions/6266727/python-cut-off-the-last-word-of-a-sentence">https://stackoverflow.com/questions/6266727/python-cut-off-the-last-word-of-a-sentence</a><br>
 方法一：rsplit<br>
 You can split you text by last space symbol into two parts using rsplit.<br>
@@ -17389,7 +17649,7 @@ The rfind() method finds the last occurrence of the specified value.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 實驗看看：</span>
@@ -17412,7 +17672,7 @@ The rfind() method finds the last occurrence of the specified value.</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[49]:</div>
+    <div class="prompt output_prompt">Out[33]:</div>
 
 
 
@@ -17429,7 +17689,7 @@ The rfind() method finds the last occurrence of the specified value.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 成果還不錯</span>
@@ -17446,7 +17706,7 @@ The rfind() method finds the last occurrence of the specified value.</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[51]:</div>
+    <div class="prompt output_prompt">Out[34]:</div>
 
 
 
@@ -17463,7 +17723,7 @@ The rfind() method finds the last occurrence of the specified value.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 修改code，結果可以依照檔案名稱將dataframe排序：</span>
@@ -17496,7 +17756,7 @@ The rfind() method finds the last occurrence of the specified value.</p>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[53]:</div>
+    <div class="prompt output_prompt">Out[35]:</div>
 
 
 
@@ -17780,7 +18040,8 @@ Iterate recursively using Path class from pathlib module</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#35258;&#24471;&#23531;&#25104;&#19968;&#34892;&#24456;&#21426;&#23475;">&#35258;&#24471;&#23531;&#25104;&#19968;&#34892;&#24456;&#21426;&#23475;<a class="anchor-link" href="#&#35258;&#24471;&#23531;&#25104;&#19968;&#34892;&#24456;&#21426;&#23475;">&#182;</a></h1><p>python - Read multiple .csv files from folder with variable part fo file name - Stack Overflow<br>
+<p>覺得寫成一行很厲害<br>
+python - Read multiple .csv files from folder with variable part fo file name - Stack Overflow<br>
 <a href="https://stackoverflow.com/questions/51844425/read-multiple-csv-files-from-folder-with-variable-part-fo-file-name">https://stackoverflow.com/questions/51844425/read-multiple-csv-files-from-folder-with-variable-part-fo-file-name</a><br>
 df = pd.concat([pd.read_csv(f) for f in glob.glob('my_file*.csv')])</p>
 
@@ -17789,10 +18050,11 @@ df = pd.concat([pd.read_csv(f) for f in glob.glob('my_file*.csv')])</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html_toc <span class="s1">&#39;Data_Input(multiple csv).ipynb&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#可以將整個Notebook轉成html來開啟來看，並且有sidebar目錄</span>
+<span class="o">!</span>jupyter nbconvert --to html_toc <span class="s1">&#39;Data_Input(multiple csv).ipynb&#39;</span>
 </pre></div>
 
     </div>
@@ -17810,7 +18072,7 @@ df = pd.concat([pd.read_csv(f) for f in glob.glob('my_file*.csv')])</p>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[NbConvertApp] Converting notebook Data_Input(multiple csv).ipynb to html_toc
-[NbConvertApp] Writing 346773 bytes to Data_Input(multiple csv).html
+[NbConvertApp] Writing 421878 bytes to Data_Input(multiple csv).html
 </pre>
 </div>
 </div>
