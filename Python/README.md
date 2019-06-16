@@ -16,5 +16,5 @@ R Notebook除了本身的.md檔案，在存檔的時候，也會存一個.nb.htm
 html檔案可以保持側欄的特性，  
 不過看來格式不太一樣，改天再來研究。  
 
-> Data Input(Read in Multipe Csv)
+1. Data Input(Read in Multipe Csv)  
 (Setup Date: 2018/06/16)
