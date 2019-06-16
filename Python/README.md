@@ -9,15 +9,12 @@
 
 這樣就可以直接看code，不需要還要打開Jupyter。  
 會有這樣的習慣，是因為使用R Notebook，  
-R Notebook除了本身的.md檔案，  
-在存檔的時候，也會存一個.nb.html檔，
-覺得傳檔案給別人看，
-只要有瀏覽器就可以看code很方便。
+R Notebook除了本身的.md檔案，在存檔的時候，也會存一個.nb.html檔，  
+覺得傳檔案給別人看，只要有瀏覽器就可以看code很方便。  
 
 原本以為上傳Github，  
 html檔案可以保持側欄的特性，  
-不過看來格式不太一樣，  
-改天再來研究。  
+不過看來格式不太一樣，改天再來研究。  
 
 > Data Input(Read in Multipe Csv)
 (Setup Date: 2018/06/16)
